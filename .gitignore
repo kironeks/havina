@@ -1,0 +1,13 @@
+_site/
+.sass-cache/
+.jekyll-metadata
+*.log
+*.zip
+*~
+._*
+.cache
+.DS_Store
+.settings
+*.sublime-project
+*.sublime-workspace
+Thumbs.db
