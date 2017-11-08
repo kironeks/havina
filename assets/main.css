@@ -1,0 +1,159 @@
+html {
+ height:100%;
+ position:relative
+}
+body {
+ background:#fff url(bodybg.jpg) no-repeat;
+ background-position:center -310px;
+ background-attachment:fixed;
+ min-height:100%;
+ text-align:center;
+ padding-top:3vw;
+ color:#444;
+}
+
+h1 {
+ margin:50px auto;
+ text-indent:-99999px;
+ background:url(logo.svg) no-repeat top center;
+ background-size:contain;
+ display:block;
+ width:100%;
+ height:100px;
+}
+
+h2 {
+ font-size:2em;
+ line-height:1em;
+ margin:0 1em;
+   color:#333;
+}
+p {
+ font-size:0.8em;
+ font-weight:300;
+ margin:1.6em 0;
+  color:#333;
+}
+h2 span {
+ font-style:normal;
+ font-size:50%;
+ font-weight:300
+}
+h2 {
+ font-size:1.6em;
+ line-height:1em;
+ margin:0 1em;
+}
+img.profilepic {
+ width:160px;
+ height:auto;
+ margin:-10px 20px 20px;
+}
+
+
+
+
+
+
+
+@media (min-width: 550px) {
+ h1 {
+  height:4em;
+  width:100%
+ }
+  
+  img.profilepic {
+ width:200px;
+  }
+  
+  
+}
+
+@media (min-height: 640px) and (max-height: 736px) {
+ h1 {
+  height:4em;
+  
+  margin-bottom:2em
+ }
+}
+h2 {
+ margin-bottom:2em
+}
+@media (width: 480px) {
+ h1 {
+  height:4.5em;
+  
+ }
+}
+@media (min-width: 568px) {
+ h1 {
+  height:4.4em;
+  
+ }
+}
+@media (min-width: 667px) {
+ body {
+  background-position:center -310px
+ }
+ h1 {
+  height:5.4em;
+  
+ }
+ h2 {
+  font-size:1.6em
+ }
+}
+@media (min-width: 768px) {
+ h1 {
+  height:6.4em;
+  
+ }
+}
+@media (min-width: 1024px) {
+ body {
+  background-position:center -210px
+ }
+ h1 {
+  height:8.4em;
+  
+ }
+ h2 {
+  font-size:2.2em
+ }
+  
+  img.profilepic {
+ width:250px;
+  }
+  
+  
+  
+}
+@media (min-width: 1424px) {
+ body {
+  background-position:center -110px
+ }
+ h1 {
+  height:10em
+ }
+ p {
+  font-size:1em
+ }
+  
+  img.profilepic {
+ width:300px;
+    
+    margin-bottom:50px;
+ }
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
