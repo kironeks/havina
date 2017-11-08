@@ -1,3 +1,16 @@
 _site/
 .sass-cache/
 .jekyll-metadata
+
+*.diff
+*.log
+*.zip
+*~
+
+._*
+.cache
+.DS_Store
+.settings
+*.sublime-project
+*.sublime-workspace
+Thumbs.db
