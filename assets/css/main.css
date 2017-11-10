@@ -1,6 +1,6 @@
 html {
  height:100%;
- position:relative
+ position:relative;
 }
 body {
  background:#fff url(bodybg.jpg) no-repeat;
@@ -9,6 +9,7 @@ body {
  min-height:100%;
  text-align:center;
  padding-top:3vw;
+  
  color:#444;
 }
 
@@ -146,7 +147,7 @@ h2 {
 }
 @media (min-width: 1424px) {
  body {
-  background-position:center -110px
+  background-position:center -10px
  }
  h1 {
   height:10em
