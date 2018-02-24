@@ -1,9 +1,11 @@
+
+
 html {
  height:100%;
  position:relative;
 }
 body {
- background:#fff url(bodybg.jpg) no-repeat;
+ background:#ddd url(bodybg.jpg) no-repeat;
  background-position:center -310px;
  background-attachment:fixed;
  min-height:100%;
@@ -60,7 +62,7 @@ a {
   height:4em;
   line-height: 4em;
   background:rgba(1,1,1,0.03) !important;
-  border-radius: 6px;
+  border-radius: 2px;
   margin: 2em auto;
   transition:ease-in-out 0.3s;
 }
@@ -128,6 +130,15 @@ h2 {
   height:6.4em;
    margin-top:3em !important;  
  }
+  
+  
+  iframe{
+  width:320px;
+  margin-bottom:1em;
+  border-radius:2px;
+}
+
+  
 }
 @media (min-width: 1024px) {
  body {
@@ -161,4 +172,13 @@ h2 {
     
     margin-bottom:50px;
   }  
+  
+  
+    
+  iframe{
+  width:396px;
+ }
+  
+  
+  
 }
