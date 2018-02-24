@@ -179,10 +179,12 @@ h2 {
 }
 @media (min-width: 1424px) {
  body {
-  background-position:center -1410px
+  background-position:center 0px
  }
  h1 {
-  height:15em
+  height:12em;
+    margin-bottom:0!important;
+   
  }
  p {
   font-size:1em
@@ -193,13 +195,8 @@ h2 {
     
     margin-bottom:50px;
   }  
-  
-  
-    
   iframe{
   width:396px;
  }
-  
-  
   
 }
