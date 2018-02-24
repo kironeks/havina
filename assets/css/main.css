@@ -99,7 +99,7 @@ img.profilepic {
  }
 }
 h2 {
- margin-bottom:2em
+ margin-bottom:0
 }
 @media (width: 480px) {
  h1 {
